@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cut_Cut.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5299a32e5921d9ffaf90bd2c661f53d07793bc1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cut_Cut.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cut_Cut.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

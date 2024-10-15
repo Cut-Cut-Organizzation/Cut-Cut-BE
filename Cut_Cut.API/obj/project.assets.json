@@ -88,6 +88,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Cut_Cut.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Cut_Cut.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Cut_Cut.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cut_Cut.BLL.dll": {}
+        }
+      },
+      "Cut_Cut.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Cut_Cut.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cut_Cut.DAL.dll": {}
+        }
       }
     }
   },
@@ -420,10 +443,21 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Cut_Cut.BLL/1.0.0": {
+      "type": "project",
+      "path": "../Cut_Cut.BLL/Cut_Cut.BLL.csproj",
+      "msbuildProject": "../Cut_Cut.BLL/Cut_Cut.BLL.csproj"
+    },
+    "Cut_Cut.DAL/1.0.0": {
+      "type": "project",
+      "path": "../Cut_Cut.DAL/Cut_Cut.DAL.csproj",
+      "msbuildProject": "../Cut_Cut.DAL/Cut_Cut.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Cut_Cut.BLL >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -459,7 +493,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\fdellacorte\\source\\repos\\Cut_Cut.API\\Cut_Cut.BLL\\Cut_Cut.BLL.csproj": {
+              "projectPath": "C:\\Users\\fdellacorte\\source\\repos\\Cut_Cut.API\\Cut_Cut.BLL\\Cut_Cut.BLL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
