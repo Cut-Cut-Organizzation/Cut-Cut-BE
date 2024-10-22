@@ -363,3 +363,12 @@ MigrationBackup/
 FodyWeavers.xsd
 /GYMBE.API/GYMDB.db-shm
 /GYMBE.API/GYMDB.db-wal
+/Cut_Cut.API/obj/Debug/net8.0/Cut_Cut.API.AssemblyInfo.cs
+/Cut_Cut.API/obj/Debug/net8.0/Cut_Cut.API.AssemblyInfoInputs.cache
+/Cut_Cut.API/obj/Cut_Cut.API.csproj.nuget.dgspec.json
+/Cut_Cut.API/obj/Cut_Cut.API.csproj.nuget.g.props
+/Cut_Cut.API/obj/Cut_Cut.API.csproj.nuget.g.targets
+/Cut_Cut.API/obj/Debug/net8.0/Cut_Cut.API.assets.cache
+/Cut_Cut.API/obj/Debug/net8.0/Cut_Cut.API.csproj.AssemblyReference.cache
+/Cut_Cut.API/obj/project.assets.json
+/Cut_Cut.API/obj/project.nuget.cache
